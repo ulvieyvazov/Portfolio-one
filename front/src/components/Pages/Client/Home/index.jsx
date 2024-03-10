@@ -1,6 +1,9 @@
 import React from 'react'
 import "./index.scss"
 import myfoto from "../../../../assets/myfoto.png"
+import { FaCheck } from "react-icons/fa";
+import { MdOutlineMail } from "react-icons/md";
+import { FaPhone } from "react-icons/fa";
 
 const Home = () => {
     return (
@@ -69,12 +72,63 @@ const Home = () => {
                         <div className='about-left'>
                             <h3>About Me</h3>
 
-                            <h2>Professional <span style={{color: ""}}>Problem Solutions</span> For Digital Products</h2>
+                            <h2>Professional <span style={{ color: "#cbff22" }}>Problem Solutions</span> For Digital Products</h2>
+
+                            <p>At vero eos et accusamus etodio dignissimos ducimus praesentium voluptatum corrupti quos dolores quas molestias excepturi sint occaecati cupiditate provident qui officia deserunt mollitia animi, id est laborum et dolorum</p>
+
+                            <ul>
+                                <div>
+                                    <li><FaCheck style={{ color: "#cbff22", fontSize: "16px", marginRight: "8px" }} />
+                                        Branding & Design</li>
+                                    <li><FaCheck style={{ color: "#cbff22", fontSize: "16px", marginRight: "8px" }} />
+                                        Digital Marketing</li>
+                                </div>
+                                <div>
+                                    <li><FaCheck style={{ color: "#cbff22", fontSize: "16px", marginRight: "8px" }} />
+                                        Web Development</li>
+                                    <li><FaCheck style={{ color: "#cbff22", fontSize: "16px", marginRight: "8px" }} />
+                                        Product Design</li>
+                                </div>
+                            </ul>
+
+                            <div className='about-info-box'>
+
+                                <div className='about-info-left'>
+
+                                    <div style={{ width: "40px", height: "40px", borderRadius: "50%", backgroundColor: "#cbff22", position: "relative", marginRight: "15px" }}>
+                                        <MdOutlineMail style={{ position: "absolute", fontSize: "20px", top: "10px", left: "10px" }} />
+                                    </div>
+
+                                    <div>
+                                        <span>Email Us</span> <br />
+                                        <a href="eyvazovulvi010101@gmail.com">eyvazovulvi010101@gmail.com</a>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div className='about-info-right'>
+                                    <div style={{ width: "40px", height: "40px", borderRadius: "50%", backgroundColor: "#cbff22", position: "relative", marginRight: "15px" }}>
+                                        <FaPhone style={{ position: "absolute", fontSize: "20px", top: "10px", left: "10px" }} />
+                                    </div>
+
+
+                                    <div>
+                                        <span>Make A Call</span> <br />
+                                        <a href="+994 (70) 273 6737">+994 (70) 273 6737</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
                         </div>
 
 
                         <div className='about-right'>
-
+                            <div className='about-right-parent'>
+                                <img src={myfoto} alt="" />                                
+                            </div>
                         </div>
                     </div>
                 </section>

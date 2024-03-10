@@ -15,9 +15,10 @@
 
             .section1-parent {
                 width: 98%;
-                margin: 0 auto;
                 display: flex;
                 justify-content: space-between;
+                margin: 120px 10px;
+
 
                 .home-left {
                     width: 65%;
@@ -64,6 +65,7 @@
                         padding-left: 30px;
                         border-radius: 10px;
                         background-color: #070707;
+
                         div {
                             padding: 20px 1px;
                             border-bottom: 1px solid gray;
@@ -75,22 +77,101 @@
         }
 
 
-        #about{
+        #about {
             margin-top: -20px;
             background-color: #070707;
 
-            .about-parent{
+            .about-parent {
                 width: 80%;
                 margin: 0 auto;
+                padding: 80px 0;
+                display: flex;
+                justify-content: space-between;
 
-                .about-left{
+                .about-left {
+                    width: 52%;
+
+                    h3 {
+                        color: gray;
+                    }
+
+                    h2 {
+                        color: white;
+                        font-size: 40px;
+                        line-height: 50px;
+                    }
+
+                    p {
+                        color: gray;
+                        line-height: 24px;
+                        font-size: 17px;
+                    }
+
+                    ul {
+                        color: white;
+                        font-size: 21px;
+                        margin: 20px 0;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        li {
+                            padding: 15px 0;
+                        }
+                    }
+
+                    .about-info-box {
+                        background-color: #1f1f1f;
+                        display: flex;
+                        padding: 30px 0;
+                        border-radius: 20px;
+                        justify-content: space-between;
+
+
+                        .about-info-left {
+                            display: flex;
+                            align-items: center;
+                            padding: 0 30px;
+
+                            a {
+                                color: white;
+                            }
+
+                            span {
+                                color: gray;
+                            }
+                        }
+
+
+                        .about-info-right {
+                            display: flex;
+                            align-items: center;
+                            padding: 0 30px;
+
+                            a {
+                                color: white;
+                            }
+
+                            span {
+                                color: gray;
+                            }
+                        }
+
+                    }
 
                 }
 
 
 
-                .about-right{
-                    
+                .about-right {
+                    width: 50%;
+
+                    .about-right-parent {
+                        img {
+                            width: 100%;
+                        }
+                    }
                 }
             }
         }
