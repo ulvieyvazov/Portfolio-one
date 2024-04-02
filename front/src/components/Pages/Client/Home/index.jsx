@@ -127,12 +127,39 @@ const Home = () => {
 
                         <div className='about-right'>
                             <div className='about-right-parent'>
-                                <img src={myfoto} alt="" />                                
+                                <img src={myfoto} alt="" />
                             </div>
                         </div>
                     </div>
                 </section>
 
+
+                <section id='resume'>
+                    <div className='resume-parent'>
+                        <div className='resume-top'>
+                            <div className='resume-top-left'>
+
+                            </div>
+
+
+                            <div className='resume-top-right'>
+
+                            </div>
+                        </div>
+
+
+                        <div className='resume-bottom'>
+                            <div className='resume-bottom-left'>
+
+                            </div>
+
+
+                            <div className='resume-bottom-right'>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
     )
