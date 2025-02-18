@@ -1,0 +1,47 @@
+.footer-container {
+    width: 100%;
+    max-width: 1640px;
+    margin: 0 auto;
+    background-color: #070707;
+
+    .footer-parent {
+        width: 80%;
+        margin: 0 auto;
+        padding: 90px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+
+        .logo {
+            display: flex;
+            align-items: center;
+
+            .logo-icon {
+                color: #cbff22;
+                font-size: 35px;
+                padding-right: 10px;
+            }
+
+            img {
+                width: 100%;
+            }
+
+        }
+
+        .social-media {
+            display: flex;
+            gap: 14px;
+            div {
+                width: 70px;
+                height: 70px;
+
+                img {
+                    width: 100%;
+                    border-radius: 50%;
+                }
+            }
+
+        }
+    }
+}
