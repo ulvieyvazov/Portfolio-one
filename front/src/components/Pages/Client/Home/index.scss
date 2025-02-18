@@ -115,7 +115,7 @@
                         flex-wrap: wrap;
                         justify-content: space-between;
                         align-items: center;
-                        
+
 
                         li {
                             padding: 15px 0;
@@ -177,9 +177,93 @@
             }
         }
 
-        #resume{
-            background-color: #1f1f1f;            
+        #resume {
+            background-color: #1f1f1f;
 
+
+        }
+
+
+        .skills {
+            width: 100%;
+            background-color: #070707;
+
+            padding: 80px 0;
+
+            .skills-parent {
+                width: 80%;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+
+                .skills-left {
+                    padding-right: 50px;
+
+                    p {
+                        color: gray;
+                        font-weight: bold;
+                    }
+
+                    h2 {
+                        font-size: 40px;
+                    }
+                }
+
+                .skills-right {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+
+                    .skills-card {
+                        border: 0.5px solid gray;
+                        border-radius: 12px;
+                        padding: 25px;
+                        margin: 15px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: #1f1f1f;
+                        cursor: pointer;
+
+
+                        img {
+                            width: 50px;
+                            border: none;
+                        }
+
+                        p {
+                            color: white;
+                            padding: 18px 0;
+                            border: none;
+                        }
+
+                        span {
+                            color: gray;
+                            padding: 5px 25px;
+                            background-color: #131313;
+                            border: none;
+                            border-radius: 10px;
+                            font-size: 20px;
+                            font-weight: 500;
+                        }
+                    }
+
+
+
+
+
+                }
+
+                .skills-right :hover {
+                    border: 0.5px solid #c9f31d;
+
+                    span {
+                        background-color: #c9f31d;
+                        border-radius: 10px;
+                    }
+                }
+            }
 
         }
     }

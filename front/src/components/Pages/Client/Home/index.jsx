@@ -1,6 +1,7 @@
 import React from 'react'
 import "./index.scss"
 import myfoto from "../../../../assets/myfoto.png"
+import myfoto1 from "../../../../assets/myfoto1.jpeg"
 import { FaCheck } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa";
@@ -69,7 +70,7 @@ const Home = () => {
 
                 <section id='about'>
                     <div className='about-parent'>
-                        <div className='about-left'>
+                        <div className='about-left' style={{paddingRight: "50px"}}>
                             <h3>About Me</h3>
 
                             <h2>Professional <span style={{ color: "#cbff22" }}>Problem Solutions</span> For Digital Products</h2>
@@ -79,13 +80,13 @@ const Home = () => {
                             <ul>
                                 <div>
                                     <li><FaCheck style={{ color: "#cbff22", fontSize: "16px", marginRight: "8px" }} />
-                                        Branding & Design</li>
+                                        FrontEnd</li>
                                     <li><FaCheck style={{ color: "#cbff22", fontSize: "16px", marginRight: "8px" }} />
-                                        Digital Marketing</li>
+                                        BackEnd</li>
                                 </div>
                                 <div>
                                     <li><FaCheck style={{ color: "#cbff22", fontSize: "16px", marginRight: "8px" }} />
-                                        Web Development</li>
+                                        Database</li>
                                     <li><FaCheck style={{ color: "#cbff22", fontSize: "16px", marginRight: "8px" }} />
                                         Product Design</li>
                                 </div>
@@ -127,7 +128,7 @@ const Home = () => {
 
                         <div className='about-right'>
                             <div className='about-right-parent'>
-                                <img src={myfoto} alt="" />
+                                <img src={myfoto1} alt="" />
                             </div>
                         </div>
                     </div>
@@ -160,6 +161,75 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+
+
+
+                <div className='skills'>
+                    <div className='skills-parent'>
+
+                        <div className='skills-left'>
+                            <p>My Skills</p>
+
+                            <div>
+                                <h2 style={{ color: "white" }}>Let’s Explore Popular</h2>
+                                <h2 style={{ color: "#c9f31d" }}>Skills & Experience</h2>
+
+                                <p></p>
+                            </div>
+
+                        </div>
+
+                        <div className='skills-right'>
+                            <div className='skills-card'>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png" alt="" />
+                                <p>JavaScripts</p>
+                                <span>95%</span>
+                            </div>
+                            <div className='skills-card'>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/862px-React-icon.svg.png" alt="" />
+                                <p>React</p>
+                                <span>86%</span>
+                            </div>
+                            <div className='skills-card'>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" alt="" />
+                                <p>HTML</p>
+                                <span>95%</span>
+                            </div>
+                            <div className='skills-card'>
+                                <img src="https://delta-dev-software.fr/wp-content/uploads/2024/05/CSS-Logo.png" alt="" />
+                                <p>CSS</p>
+                                <span>86%</span>
+                            </div>
+                            <div className='skills-card'>
+                                <img src="https://miro.medium.com/v2/resize:fit:866/1*1UBNwRFaslvqt_G3Njw3pg.jpeg" alt="" />
+                                <p>NodeJS</p>
+                                <span>71%</span>
+                            </div>
+                            <div className='skills-card'>
+                                <img src="https://quantumzeitgeist.com/wp-content/uploads/pythoned.png" alt="" />
+                                <p>Python</p>
+                                <span>55%</span>
+                            </div>
+                            <div className='skills-card'>
+                                <img src="https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png" alt="" />
+                                <p>MongoDB</p>
+                                <span>75%</span>
+                            </div>
+                            <div className='skills-card'>
+                                <img src="https://delta-dev-software.fr/wp-content/uploads/2024/05/SQLitee.png" alt="" />
+                                <p>SQLite</p>
+                                <span>75%</span>
+                            </div>
+                            <div className='skills-card'>
+                                <img src="https://i0.wp.com/blog.mocsolucoes.com.br/wp-content/uploads/2024/07/17c86623-dfcc-4c0c-84b9-dddbca7b6466.png?fit=512%2C512&ssl=1" alt="" />
+                                <p>Express</p>
+                                <span>85%</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
