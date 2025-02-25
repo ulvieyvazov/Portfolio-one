@@ -54,7 +54,7 @@ const Home = () => {
                                     <p style={{ fontSize: "15px", color: "gray" }}>Years Of Experience</p>
                                 </div>
                                 <div>
-                                    <p style={{ fontSize: "28px", color: "#cbff22", padding: "5px 0", fontWeight: "600" }}>7+</p>
+                                    <p style={{ fontSize: "28px", color: "#cbff22", padding: "5px 0", fontWeight: "600" }}>11+</p>
                                     <p style={{ fontSize: "15px", color: "gray" }}>Project Complete</p>
                                 </div>
                                 <div>
