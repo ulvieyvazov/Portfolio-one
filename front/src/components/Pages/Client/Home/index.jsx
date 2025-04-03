@@ -70,7 +70,7 @@ const Home = () => {
 
                 <section id='about'>
                     <div className='about-parent'>
-                        <div className='about-left' style={{paddingRight: "50px"}}>
+                        <div className='about-left' style={{ paddingRight: "50px" }}>
                             <h3>About Me</h3>
 
                             <h2>Professional <span style={{ color: "#cbff22" }}>Problem Solutions</span> For Digital Products</h2>
@@ -131,6 +131,13 @@ const Home = () => {
                                 <img src={myfoto1} alt="" />
                             </div>
                         </div>
+                    </div>
+                </section>
+
+
+                <section id='project'>
+                    <div>
+
                     </div>
                 </section>
 
